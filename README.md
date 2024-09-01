@@ -32,6 +32,7 @@ Taken together, these results indicate the dissemination of MDR and MDR-hv *K. p
 | `scan_amrfinder.sh`                 | Bash script for AMR gene & virulence factor detection by AMRFinderPlus                       |
 | `typing_srst.sh`                    | Bash script for gene detection against the relevant database by srst2                        |
 | `typing_Kleborate.sh`               | Bash script for multi-function profiling of Klebsiella genome by Kleborate                   |
+| `profiling_metaphlan.sh`            | Bash script for profiling the sequencing reads species as QC for contamination               |
 | `metadata_processing.R`             | R script for the relevant metadata processing                                                |
 | `plasmid_pygenomeviz.ipynb`         | Python script for the plasmid alignment and visualisation by pyGenomeViz                     |
 
