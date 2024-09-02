@@ -20,7 +20,7 @@ Taken together, these results indicate the dissemination of MDR and MDR-hv *K. p
 
 ```plaintext
 .
-├── bash_scripts                                  # Folder containing bash scripts
+├── Bash_code                                     # Folder containing bash scripts
 │   ├── annotate_bakta.sh                             # Assembled genome annotation bash script
 │   ├── assembly_qc_quast.sh                          # Genome assembly quality assessment bash script
 │   ├── assembly_unicycler.sh                         # Short-read genome assembly bash script
@@ -32,10 +32,10 @@ Taken together, these results indicate the dissemination of MDR and MDR-hv *K. p
 │   ├── scan_amrfinder.sh                             # Bash script for AMR gene & virulence factor detection by AMRFinderPlus
 │   ├── typing_srst.sh                                # Bash script for gene detection against the relevant database by srst2
 │   └── typing_Kleborate.sh                           # Bash script for multi-function profiling of Klebsiella genome by Kleborate
-├── R_and_notebooks                               # Folder containing R script and Jupyter notebook
+├── R&Python_code                               # Folder containing R script and Jupyter notebook
 │   ├── metadata_processing.R                         # R script for the relevant metadata processing
 │   └── plasmid_pygenomeviz.ipynb                     # Python script for the plasmid alignment and visualization by pyGenomeViz
-├── files                                         # Folder containing metadata and annotated plasmid sequences
+├── Files                                         # Folder containing metadata and annotated plasmid sequences
 │   ├── Annotated_plasmid                             # Folder containing annotated plasmid sequences in gbk format
 │   │   └── [Annotated plasmid files in gbk format]   
 │   └── Samples_metadata.csv                          # Metadata of samples that were in-house sequenced in this study
