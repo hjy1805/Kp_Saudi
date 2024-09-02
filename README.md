@@ -16,25 +16,38 @@ Our results indicate that, despite a diverse *K. pneumoniae* population underlyi
 Taken together, these results indicate the dissemination of MDR and MDR-hv *K. pneumoniae* strains across the kingdom and provide evidence for pervasive plasmid sharing and horizontal gene transfer of resistance genes. The results demonstrate the independent introduction of endemic ST147, ST231, and ST101 clones into the country and highlight the clinical significance of ST2096 as an emerging clone with dual resistance and virulence risks. These results highlight the need for continuous surveillance of circulating and newly emergent strains (STs) and of their plasmidome footprints carrying MDR determinants.
 
 
-## Files Descriptions
+## File Structure
 
-| File & folder Name                  | Description                                                                                  |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------|
-| `Annotated_plasmid`                 | Annotated plasmid sequence in gbk format                                                     |
-| `Samples_metadata.csv`              | Metadata of samples that were in-house sequenced in this study                               |
-| `annotate_bakta.sh`                 | Assembled genome annotation bash script                                                      |
-| `assembly_unicycler.sh`             | short-read genome assembly bash script                                                       |
-| `assembly_unicycler_hybird.sh`      | Long-read hybrid genome assembly bash script                                                 |
-| `assembly_qc_quast.sh`              | Genome assembly quality accession bash script                                                |
-| `mapping_snippy.sh`                 | Bash script for mapping short reads against reference genome                                 |
-| `run_gubbins.sh`                    | Bash script for filtering out polymorphic sites                                              |
-| `run_beast2.sh`                     | Bash script for running Bayesian Evolutionary Analysis Sampling Trees 2 (BEAST2)             |
-| `scan_amrfinder.sh`                 | Bash script for AMR gene & virulence factor detection by AMRFinderPlus                       |
-| `typing_srst.sh`                    | Bash script for gene detection against the relevant database by srst2                        |
-| `typing_Kleborate.sh`               | Bash script for multi-function profiling of Klebsiella genome by Kleborate                   |
-| `profiling_metaphlan.sh`            | Bash script for profiling the sequencing reads species as QC for contamination               |
-| `metadata_processing.R`             | R script for the relevant metadata processing                                                |
-| `plasmid_pygenomeviz.ipynb`         | Python script for the plasmid alignment and visualisation by pyGenomeViz                     |
+```plaintext
+.
+├── bash_scripts                                  # Folder containing bash scripts
+│   ├── annotate_bakta.sh                             # Assembled genome annotation bash script
+│   ├── assembly_qc_quast.sh                          # Genome assembly quality assessment bash script
+│   ├── assembly_unicycler.sh                         # Short-read genome assembly bash script
+│   ├── assembly_unicycler_hybird.sh                  # Long-read hybrid genome assembly bash script
+│   ├── mapping_snippy.sh                             # Bash script for mapping short reads against reference genome
+│   ├── profiling_metaphlan.sh                        # Bash script for profiling the sequencing reads species as QC for contamination
+│   ├── run_beast2.sh                                 # Bash script for running Bayesian Evolutionary Analysis Sampling Trees 2 (BEAST2)
+│   ├── run_gubbins.sh                                # Bash script for filtering out polymorphic sites
+│   ├── scan_amrfinder.sh                             # Bash script for AMR gene & virulence factor detection by AMRFinderPlus
+│   ├── typing_srst.sh                                # Bash script for gene detection against the relevant database by srst2
+│   └── typing_Kleborate.sh                           # Bash script for multi-function profiling of Klebsiella genome by Kleborate
+├── R_and_notebooks                               # Folder containing R script and Jupyter notebook
+│   ├── metadata_processing.R                         # R script for the relevant metadata processing
+│   └── plasmid_pygenomeviz.ipynb                     # Python script for the plasmid alignment and visualization by pyGenomeViz
+├── files                                         # Folder containing metadata and annotated plasmid sequences
+│   ├── Annotated_plasmid                             # Folder containing annotated plasmid sequences in gbk format
+│   │   └── [Annotated plasmid files in gbk format]   
+│   └── Samples_metadata.csv                          # Metadata of samples that were in-house sequenced in this study
+└── README.md                             
+
+```
+## Reference
+The Dissemination of Multidrug-Resistant and Hypervirulent Klebsiella pneumoniae Clones Across the Kingdom of Saudi Arabia (Under Review)
+
+Jiayi Huang, Ahmed Yousef Alhejaili, Usamah Hussein Alkherd, Mathew Milner, Ge Zhou, Deema Alzahrani, Manuel Banzhaf, Albandari A. Alzaidi, Ahmad A. Rajeh, Maram Abdulmohsen Al-Otaiby, Sara Binabbad, Doua Bukhari, Abdullah N. Aljurayan, Alanoud T. Aljasham, Zeyad A. Alzeyadi, Sulaiman M. Alajel, Pei-Ying Hong, Majed Alghoribi, Mashal M. Almutairi, Arnab Pain, Waleed Al Salam, Danesh Moradigaravand
+
+medRxiv 2024.03.26.24304793; doi: https://doi.org/10.1101/2024.03.26.24304793
 
 
 ## Contacts
