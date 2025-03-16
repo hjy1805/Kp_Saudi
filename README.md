@@ -43,11 +43,7 @@ Taken together, these results indicate the dissemination of MDR and MDR-hv *K. p
 
 ```
 ## Reference
-The Dissemination of Multidrug-Resistant and Hypervirulent Klebsiella pneumoniae Clones Across the Kingdom of Saudi Arabia (Under Review)
-
-Jiayi Huang, Ahmed Yousef Alhejaili, Usamah Hussein Alkherd, Mathew Milner, Ge Zhou, Deema Alzahrani, Manuel Banzhaf, Albandari A. Alzaidi, Ahmad A. Rajeh, Maram Abdulmohsen Al-Otaiby, Sara Binabbad, Doua Bukhari, Abdullah N. Aljurayan, Alanoud T. Aljasham, Zeyad A. Alzeyadi, Sulaiman M. Alajel, Pei-Ying Hong, Majed Alghoribi, Mashal M. Almutairi, Arnab Pain, Waleed Al Salam, Danesh Moradigaravand
-
-medRxiv 2024.03.26.24304793; doi: https://doi.org/10.1101/2024.03.26.24304793
+Huang, J. et al. (2024) ‘The dissemination of multidrug-resistant and hypervirulent *Klebsiella pneumoniae* clones across the Kingdom of Saudi Arabia’, *Emerging Microbes & Infections*, 13(1). doi: 10.1080/22221751.2024.2427793
 
 
 ## Contacts
